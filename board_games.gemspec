@@ -28,4 +28,8 @@ Players use dice turn by turn to move along the squares.}
   spec.bindir        = "exe"
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
+  spec.add_dependency "rake", "~> 12.0"
+  spec.add_dependency "rspec", "~> 3.0"
+  spec.add_dependency "colorize", '~> 0.8.1'
+  spec.add_dependency "activesupport", '~> 7.0', '>= 7.0.8'
 end
