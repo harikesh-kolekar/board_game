@@ -25,13 +25,14 @@ Or install it yourself as:
     $ gem specific_install https://github.com/harikesh-kolekar/board_game
     $ irb
 
+
+## Usage
+
 ```ruby
 require 'board_games'
 BoardGame.play
 ```
-## Usage
-
-
+![plot](./board_game_play.png)
 
 ## Development
 
